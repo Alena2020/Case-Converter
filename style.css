@@ -1,0 +1,34 @@
+body {
+  background-color: midnightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: mediumturquoise;
+  font-size: 50px;
+  text-shadow: 0 0 2px white, -2px -2px 2px magenta;
+  box-shadow: 5px 5px 10px midnightblue, 10px 30px 45px midnightblue inset;
+  margin-top: 20px;
+}
+
+textarea {
+  height: 400px;
+  width: 800px;
+  border-radius: 35px;
+  margin: 30px 300px;
+  padding: 30px;
+  font-size: 20px;
+  color: blue;
+}
+
+button {
+  background-color: blueviolet;
+  color: cornsilk;
+  border-radius: 35px;
+  padding: 5px 10px;
+  margin: 5px;
+  box-shadow: 5px 5px 15px aqua, 0 0 20px magenta, inset 5px 5px 15px aqua;
+  cursor: pointer;
+}
