@@ -3,6 +3,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Bubblegum Sans", cursive;
 }
 
 .title {
@@ -19,8 +20,10 @@ textarea {
   border-radius: 35px;
   margin: 30px 300px;
   padding: 30px;
-  font-size: 20px;
-  color: blue;
+  font-size: 25px;
+  color: rgb(224, 245, 241);
+  background-color: rgb(78, 122, 204);
+  font-family: "Bubblegum Sans", cursive;
 }
 
 button {
@@ -31,4 +34,6 @@ button {
   margin: 5px;
   box-shadow: 5px 5px 15px aqua, 0 0 20px magenta, inset 5px 5px 15px aqua;
   cursor: pointer;
+  font-family: "Bubblegum Sans", cursive;
+  font-size: 20px;
 }
