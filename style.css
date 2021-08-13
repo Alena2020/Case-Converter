@@ -9,8 +9,8 @@ body {
 .title {
   color: mediumturquoise;
   font-size: 50px;
-  text-shadow: 0 0 2px white, -2px -2px 2px magenta;
-  box-shadow: 5px 5px 10px midnightblue, 10px 30px 45px midnightblue inset;
+  text-shadow: 0 0 2px white, -1px -1px 0 white, -3px -3px 1px white,
+    -2px -2px 2px magenta;
   margin-top: 20px;
 }
 

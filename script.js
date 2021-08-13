@@ -1,6 +1,5 @@
 "use strict";
 
-let textArray = [];
 let inputText = document.getElementById('input-text');
 let buttonUpperCase = document.getElementById('upper-case');
 let buttonLowerCase = document.getElementById('lower-case');
@@ -17,7 +16,7 @@ buttonLowerCase.addEventListener("click", () => {
 });
 
 buttonProperCase.addEventListener("click", () => {
-    textArray = inputText.value.toLowerCase().split(' ');
+    let textArray = inputText.value.toLowerCase().split(' ');
     for (let i = 0; i < textArray.length; i++) {
         textArray[i] = textArray[i].charAt(0).toUpperCase() + textArray[i].slice(1);
     }
@@ -25,7 +24,7 @@ buttonProperCase.addEventListener("click", () => {
 });
 
 buttonSentenceCase.addEventListener("click", () => {
-    textArray = inputText.value.toLowerCase().split('. ');
+    let textArray = inputText.value.toLowerCase().split('. ');
     for (let i = 0; i < textArray.length; i++) {
         textArray[i] = textArray[i].charAt(0).toUpperCase() + textArray[i].slice(1);
     }
